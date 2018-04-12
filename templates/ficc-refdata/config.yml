@@ -1,0 +1,5 @@
+name: ficc-refdata
+description: |
+  MongoDB Replica Set.
+version: "v1"
+category: Applications

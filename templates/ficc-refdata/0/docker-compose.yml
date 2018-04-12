@@ -1,0 +1,12 @@
+version: '2'
+services:
+  ficc-refdata:
+    restart: always
+    ports:
+    - 8188:8188/tcp
+    tty: true
+    labels:
+      io.rancher.container.pull_image: always
+    image: 172.253.32.136:5000/ficc_refdata:v1
+    stdin_open: true
+    network_mode: host
